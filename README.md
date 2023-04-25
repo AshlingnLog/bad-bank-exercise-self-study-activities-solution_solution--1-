@@ -2,6 +2,11 @@
 
 I am trying a different way to see if it works.
 using the solution files to see if I can get the BadBank project working
+This site is supposed to be hosted in an AWS s3 bucket
+https://cashbankajs.s3.amazonaws.com/index.html
+
+I am currently trying to figure out. why the pages within my app are only opening in JS code.
+
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
 <!--
