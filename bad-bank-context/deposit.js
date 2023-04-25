@@ -1,9 +1,3 @@
-function Deposit(){
-  return (
-    <h1>Deposit</h1>
-  )
-}
-
 import React, { useState } from "react";
 import { Card, Form, Button, Alert } from "react-bootstrap";
 

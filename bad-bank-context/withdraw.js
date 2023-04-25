@@ -1,8 +1,3 @@
-function Withdraw(){
-  return (
-    <h1>Withdraw</h1>
-  )
-}
 import React, { useState } from "react";
 import { Card, Form, Button, Alert } from "react-bootstrap";
 

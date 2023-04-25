@@ -1,10 +1,3 @@
-function AllData(){
-  return (
-    <>
-    <h1>All Data</h1>
-    </>
-  );
-}
 import React, { useState } from 'react';
 import { Card, CardBody, CardTitle } from 'reactstrap';
 
