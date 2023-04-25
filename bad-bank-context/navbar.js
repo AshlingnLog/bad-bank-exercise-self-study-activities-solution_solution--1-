@@ -14,6 +14,9 @@ function NavBar(){
               <a class="nav-link" href="createaccount.js">Create Account</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="login.js">Log In</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="deposit.js">Deposit</a>
             </li>
             <li class="nav-item">
@@ -25,6 +28,5 @@ function NavBar(){
     </ul>
   </div>
 </nav>
-    </>
-  );
+    );
 }

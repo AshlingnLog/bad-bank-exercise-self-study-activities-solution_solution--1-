@@ -1,0 +1,119 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/Users/ashlingstruve/.nvm/versions/node/v17.9.1/bin/node',
+1 verbose cli   '/Users/ashlingstruve/.nvm/versions/node/v17.9.1/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   '@babel/standalone'
+1 verbose cli ]
+2 info using npm@3.10.3
+3 info using node@v17.9.1
+4 verbose config Skipping project config: /Users/ashlingstruve/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData @babel/standalone
+9 silly fetchNamedPackageData @babel/standalone
+10 silly mapToRegistry name @babel/standalone
+11 silly mapToRegistry scope (from package name) @babel
+12 verbose mapToRegistry no registry URL found in name for scope @babel
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: '@babel/standalone',
+15 silly mapToRegistry   scope: '@babel',
+15 silly mapToRegistry   escapedName: '@babel%2fstandalone',
+15 silly mapToRegistry   name: '@babel/standalone',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag'
+15 silly mapToRegistry }
+16 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fstandalone
+17 verbose request uri https://registry.npmjs.org/@babel%2fstandalone
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 12:59:05 PM
+20 verbose request id f307336165ab83ac
+21 http request GET https://registry.npmjs.org/@babel%2fstandalone
+22 http 200 https://registry.npmjs.org/@babel%2fstandalone
+23 verbose headers {
+23 verbose headers   date: 'Tue, 25 Apr 2023 17:59:05 GMT',
+23 verbose headers   'content-type': 'application/json',
+23 verbose headers   'transfer-encoding': 'chunked',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'cf-ray': '7bd87a515ec0c530-ORD',
+23 verbose headers   'access-control-allow-origin': '*',
+23 verbose headers   'cache-control': 'public, max-age=300',
+23 verbose headers   etag: 'W/"88faef3c68e9e25fc6f9b5d2d4e8a22a"',
+23 verbose headers   'last-modified': 'Tue, 04 Apr 2023 15:13:08 GMT',
+23 verbose headers   vary: 'accept-encoding, accept',
+23 verbose headers   'cf-cache-status': 'REVALIDATED',
+23 verbose headers   'x-amz-replication-status': 'COMPLETED',
+23 verbose headers   'x-amz-server-side-encryption': 'AES256',
+23 verbose headers   server: 'cloudflare',
+23 verbose headers   'content-encoding': 'gzip'
+23 verbose headers }
+24 silly get cb [
+24 silly get   200,
+24 silly get   {
+24 silly get     date: 'Tue, 25 Apr 2023 17:59:05 GMT',
+24 silly get     'content-type': 'application/json',
+24 silly get     'transfer-encoding': 'chunked',
+24 silly get     connection: 'keep-alive',
+24 silly get     'cf-ray': '7bd87a515ec0c530-ORD',
+24 silly get     'access-control-allow-origin': '*',
+24 silly get     'cache-control': 'public, max-age=300',
+24 silly get     etag: 'W/"88faef3c68e9e25fc6f9b5d2d4e8a22a"',
+24 silly get     'last-modified': 'Tue, 04 Apr 2023 15:13:08 GMT',
+24 silly get     vary: 'accept-encoding, accept',
+24 silly get     'cf-cache-status': 'REVALIDATED',
+24 silly get     'x-amz-replication-status': 'COMPLETED',
+24 silly get     'x-amz-server-side-encryption': 'AES256',
+24 silly get     server: 'cloudflare',
+24 silly get     'content-encoding': 'gzip'
+24 silly get   }
+24 silly get ]
+25 verbose get saving @babel/standalone to /Users/ashlingstruve/.npm/registry.npmjs.org/_40babel_252fstandalone/.cache.json
+26 verbose correctMkdir /Users/ashlingstruve/.npm correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 verbose stack Error: Missing required argument #1
+39 verbose stack     at andLogAndFinish (/Users/ashlingstruve/.nvm/versions/node/v17.9.1/lib/node_modules/npm/lib/fetch-package-metadata.js:31:3)
+39 verbose stack     at fetchPackageMetadata (/Users/ashlingstruve/.nvm/versions/node/v17.9.1/lib/node_modules/npm/lib/fetch-package-metadata.js:51:22)
+39 verbose stack     at resolveWithNewModule (/Users/ashlingstruve/.nvm/versions/node/v17.9.1/lib/node_modules/npm/lib/install/deps.js:515:12)
+39 verbose stack     at /Users/ashlingstruve/.nvm/versions/node/v17.9.1/lib/node_modules/npm/lib/install/deps.js:243:5
+39 verbose stack     at /Users/ashlingstruve/.nvm/versions/node/v17.9.1/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+39 verbose stack     at Array.forEach (<anonymous>)
+39 verbose stack     at /Users/ashlingstruve/.nvm/versions/node/v17.9.1/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+39 verbose stack     at Array.forEach (<anonymous>)
+39 verbose stack     at asyncMap (/Users/ashlingstruve/.nvm/versions/node/v17.9.1/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+39 verbose stack     at exports.loadRequestedDeps (/Users/ashlingstruve/.nvm/versions/node/v17.9.1/lib/node_modules/npm/lib/install/deps.js:241:3)
+40 verbose cwd /Users/ashlingstruve/Downloads/bad-bank-exercise-self-study-activities-solution_solution (1)/bad-bank-context
+41 error Darwin 22.4.0
+42 error argv "/Users/ashlingstruve/.nvm/versions/node/v17.9.1/bin/node" "/Users/ashlingstruve/.nvm/versions/node/v17.9.1/bin/npm" "install" "--save" "@babel/standalone"
+43 error node v17.9.1
+44 error npm  v3.10.3
+45 error code EMISSINGARG
+46 error typeerror Error: Missing required argument #1
+46 error typeerror     at andLogAndFinish (/Users/ashlingstruve/.nvm/versions/node/v17.9.1/lib/node_modules/npm/lib/fetch-package-metadata.js:31:3)
+46 error typeerror     at fetchPackageMetadata (/Users/ashlingstruve/.nvm/versions/node/v17.9.1/lib/node_modules/npm/lib/fetch-package-metadata.js:51:22)
+46 error typeerror     at resolveWithNewModule (/Users/ashlingstruve/.nvm/versions/node/v17.9.1/lib/node_modules/npm/lib/install/deps.js:515:12)
+46 error typeerror     at /Users/ashlingstruve/.nvm/versions/node/v17.9.1/lib/node_modules/npm/lib/install/deps.js:243:5
+46 error typeerror     at /Users/ashlingstruve/.nvm/versions/node/v17.9.1/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+46 error typeerror     at Array.forEach (<anonymous>)
+46 error typeerror     at /Users/ashlingstruve/.nvm/versions/node/v17.9.1/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+46 error typeerror     at Array.forEach (<anonymous>)
+46 error typeerror     at asyncMap (/Users/ashlingstruve/.nvm/versions/node/v17.9.1/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+46 error typeerror     at exports.loadRequestedDeps (/Users/ashlingstruve/.nvm/versions/node/v17.9.1/lib/node_modules/npm/lib/install/deps.js:241:3)
+47 error typeerror This is an error with npm itself. Please report this error at:
+47 error typeerror     <http://github.com/npm/npm/issues>
+48 verbose exit [ 1, true ]
