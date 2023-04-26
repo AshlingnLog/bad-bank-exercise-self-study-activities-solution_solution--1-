@@ -1,5 +1,8 @@
-function Spa() {
+import { Route } from 'react-router-dom';
+
+const App = () => {
   return (
+
     <HashRouter>
       <NavBar/>
       <UserContext.Provider value={{users:[{name:'Ashling',email:'AshlingStruve85@gmail.com',password:'secret123',balance:100}]}}>              
