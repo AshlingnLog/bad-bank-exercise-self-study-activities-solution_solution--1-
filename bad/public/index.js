@@ -1,4 +1,11 @@
-function Spa() {
+import * as React from "react";
+import * as ReactDOM from "react-dom";
+import { 
+  HashRouter } from "react-router-dom";
+
+ReactDOM.render(
+  root
+);function Spa() {
   return (
     <HashRouter>
       <NavBar/>
